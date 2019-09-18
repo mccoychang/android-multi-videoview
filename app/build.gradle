@@ -17,12 +17,13 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
 }

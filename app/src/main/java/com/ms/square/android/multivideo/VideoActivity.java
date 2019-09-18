@@ -82,7 +82,7 @@ public class VideoActivity extends Activity {
             mVideoView10 = (VideoView)rootView.findViewById(R.id.video10);
 
             Uri videoUri = Uri.parse("android.resource://" + getActivity().getPackageName() + "/"
-                    + R.raw.sample);
+                    + R.raw.mmm3);
 
             mVideoView1.setVideoURI(videoUri);
             mVideoView1.start();
